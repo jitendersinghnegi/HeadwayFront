@@ -27,9 +27,9 @@ export default async function LocaleLayout({
       <body
         className="min-h-screen flex flex-col font-sans bg-white text-gray-900"
       >
-        <Header />
-          <NextIntlClientProvider>{children}</NextIntlClientProvider>
-        <Footer />
+        
+          <NextIntlClientProvider><Header />{children}<Footer /></NextIntlClientProvider>
+        
       </body>
     </html>
   );

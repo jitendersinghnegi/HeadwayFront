@@ -1,5 +1,16 @@
 {
   "HomePage": {
     "title": "खोजें, ठहरें और अनुभव करें"
+  },
+  "Header":{
+    "who we are": "हम जो हैं",
+    "what we do":"हम क्या करते हैं",
+    "explore":"अन्वेषण करना",
+    "sustainability":"वहनीयता"
+  },
+  "Footer":{
+    "all rights reserved":"सर्वाधिकार सुरक्षित",
+    "privacy policy": "गोपनीयता नीति",
+    "terms of service":"सेवा की शर्तें"
   }
 }

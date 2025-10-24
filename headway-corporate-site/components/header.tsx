@@ -1,5 +1,5 @@
 'use client';
-
+import {useTranslations} from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -7,22 +7,23 @@ import { Menu } from 'lucide-react';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const h = useTranslations('Header');
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <header className="sticky top-0 z-50 bg-gray-900 border-b border-gray-200">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
           <Image src="/logo.png" alt="Company Logo" width={40} height={40} />
-          <span className="font-semibold text-lg">Headway Social</span>
+          <span className="font-semibold text-gray-300">Headway Social</span>
         </Link>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">
-          <Link href="/who-we-are" className="hover:text-black">Who We Are</Link>
-          <Link href="/what-we-do" className="hover:text-black">What We Do</Link>
-          <Link href="/explore" className="hover:text-black">Explore</Link>
-          <Link href="/sustainability" className="hover:text-black">Sustainability</Link>
+        <nav className="hidden md:flex space-x-8 text-gray-300 font-medium">
+          <Link href="/who-we-are" className="hover:text-white">{h('who we are')}</Link>
+          <Link href="/what-we-do" className="hover:text-white">{h('what we do')}</Link>
+          <Link href="/explore" className="hover:text-white">{h('explore')}</Link>
+          <Link href="/sustainability" className="hover:text-white">{h('sustainability')}</Link>
         </nav>
 
         {/* Mobile Menu Button */}

@@ -1,0 +1,16 @@
+{
+  "HomePage": {
+    "title": "Découvrir, Séjourner et Vivre l’Expérience"
+  },
+  "Header": {
+    "who we are": "Qui Nous Sommes",
+    "what we do": "Ce Que Nous Faisons",
+    "explore": "Explorer",
+    "sustainability": "Durabilité"
+  },
+  "Footer": {
+    "all rights reserved": "Tous Droits Réservés",
+    "privacy policy": "Politique de Confidentialité",
+    "terms of service": "Conditions d’Utilisation"
+  }
+}

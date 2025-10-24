@@ -1,5 +1,16 @@
 {
   "HomePage": {
     "title": "Entdecken, Übernachten & Erleben"
+  },
+  "Header":{
+    "who we are": "Wer wir sind",
+    "what we do":"Was wir tun",
+    "explore":"Erkunden",
+    "sustainability":"SustaNachhaltigkeit"
+  },
+  "Footer":{
+    "all rights reserved":"Alle Rechte vorbehalten",
+    "privacy policy": "Datenschutzrichtlinie",
+    "terms of service":"Nutzungsbedingungen"
   }
 }
